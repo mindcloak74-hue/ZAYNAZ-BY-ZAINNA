@@ -39,7 +39,7 @@ export function Hero() {
           className="text-4xl md:text-6xl lg:text-8xl font-serif font-light text-primary-foreground mb-6 tracking-wide"
         >
           <span className="block">Dastan</span>
-          <span className="block italic">Collection</span>
+          <span className="block italic">Luxe</span>
         </motion.h1>
 
         <motion.p
@@ -48,8 +48,8 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-base md:text-lg text-primary-foreground/90 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Discover our curated collection of luxury women&apos;s fashion.
-          Where modern femininity meets timeless elegance.
+         EID II 
+         READY TO WEAR
         </motion.p>
 
         <motion.div
@@ -62,7 +62,7 @@ export function Hero() {
             href="#collections"
             className="group flex items-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-widest uppercase hover:bg-accent transition-all duration-300"
           >
-            Shop Collection
+            Shop Now
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
           <Link
