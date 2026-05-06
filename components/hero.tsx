@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <p className="text-sm md:text-base tracking-[0.4em] text-primary-foreground/80 uppercase mb-6">
-            New Summer Collection Test
+            New Summer Collection 
           </p>
         </motion.div>
 
