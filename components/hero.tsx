@@ -39,7 +39,7 @@ export function Hero() {
           className="text-4xl md:text-6xl lg:text-8xl font-serif font-light text-primary-foreground mb-6 tracking-wide"
         >
           <span className="block">Dastan</span>
-          <span className="block italic">Luxe</span>
+          <span className="block italic">Collection</span>
         </motion.h1>
 
         <motion.p

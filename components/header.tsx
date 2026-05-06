@@ -63,7 +63,7 @@ export function Header() {
             <h1 className="text-2xl md:text-3xl font-serif font-semibold tracking-wider text-foreground">
               ZAYNAZ
             </h1>
-            <p className="text-[10px] tracking-[0.3em] text-muted-foreground text-center uppercase">
+            <p className="text-[9px] tracking-[0.35em] text-muted-foreground text-center uppercase leading-none -mt-1">
               by Zainna
             </p>
           </Link>
