@@ -7,17 +7,17 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[105vh] sm:min-h-[110vh] flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/img12.png"
+          src="/images/img13.png"
           alt="Luxury fashion collection"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-foreground/30" />
+        <div className="absolute inset-0 bg-foreground/40" />
       </div>
 
       {/* Content */}
