@@ -105,7 +105,7 @@ export function About() {
               <div className="pt-8">
                 <div className="aspect-[3/5] relative overflow-hidden">
                   <Image
-                    src="/images/img20.jpeg"
+                    src="/images/img21.png"
                     alt="Zaynaz collection"
                     fill
                     className="object-cover"
