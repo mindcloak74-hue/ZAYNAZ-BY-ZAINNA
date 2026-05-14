@@ -8,37 +8,37 @@ import { Heart, ShoppingBag, Star } from "lucide-react"
 const products = [
   {
     id: 1,
-    name: "Classic Silk Shalwar Kameez",
-    price: 16500,
-    image: "/images/bestseller-1.jpg",
-    category: "Eastern Wear",
+    name: "Blush Petal",
+    price: 7999,
+    image: "/images/img19.jpeg",
+    category: "Ready To Wear",
     rating: 4.9,
     reviews: 128,
   },
   {
     id: 2,
-    name: "Embroidered Palazzo Set",
-    price: 14200,
-    image: "/images/bestseller-2.jpg",
-    category: "Luxury Pret",
+    name: "Pearl Bloom",
+    price: 8999,
+    image: "/images/img16.jpeg",
+    category: "Ready To Wear",
     rating: 4.8,
     reviews: 95,
   },
   {
     id: 3,
-    name: "Designer Formal Gown",
-    price: 32000,
-    image: "/images/bestseller-3.jpg",
-    category: "Formal Wear",
+    name: "Emerald Night",
+    price: 8999,
+    image: "/images/img17.jpeg",
+    category: "Ready To Wear",
     rating: 5.0,
     reviews: 67,
   },
   {
     id: 4,
-    name: "Printed Lawn Ensemble",
-    price: 8900,
-    image: "/images/bestseller-4.jpg",
-    category: "Casual Wear",
+    name: "Laal-e-Gulistaan",
+    price: 8999,
+    image: "/images/img18.jpeg",
+    category: "Ready To Wear",
     rating: 4.7,
     reviews: 203,
   },
@@ -94,7 +94,7 @@ export function BestSellers() {
                   />
                   {/* Best Seller Badge */}
                   <span className="absolute top-4 left-4 bg-accent text-accent-foreground text-xs tracking-wider px-3 py-1 uppercase">
-                    Best Seller
+                    OUT OF STOCK
                   </span>
                   {/* Quick Actions */}
                   <div className="absolute bottom-0 left-0 right-0 p-4 flex gap-2 translate-y-full group-hover:translate-y-0 transition-transform duration-300">

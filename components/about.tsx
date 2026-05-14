@@ -43,8 +43,8 @@ export function About() {
               Our Story
             </p>
             <h2 className="text-4xl md:text-5xl font-serif font-light text-foreground mb-6 leading-tight">
-              Where Tradition Meets
-              <span className="italic block">Modern Elegance</span>
+              Live In Style With 
+              <span className="italic block"> Zaynaz</span>
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -105,7 +105,7 @@ export function About() {
               <div className="pt-8">
                 <div className="aspect-[3/5] relative overflow-hidden">
                   <Image
-                    src="/images/about-3.jpg"
+                    src="/images/img20.jpeg"
                     alt="Zaynaz collection"
                     fill
                     className="object-cover"
