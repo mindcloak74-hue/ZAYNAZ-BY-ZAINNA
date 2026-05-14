@@ -14,10 +14,10 @@ export function Hero() {
           src="/images/img21.png"
           alt="Luxury fashion collection"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-foreground/40" />
+        <div className="absolute inset-0 bg-foreground/15" />
       </div>
 
       {/* Content */}

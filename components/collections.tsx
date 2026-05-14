@@ -10,28 +10,32 @@ const collections = [
     id: 1,
     name: "Classic Ebony ",
     description: "Ready To Wear",
-    image: "/images/img1.png",
+    image: "/images/img1.jpeg",
+    objectPosition: "50% 10%",
     href: "#",
   },
   {
     id: 2,
     name: "Royal Aurelia",
     description: "Ready To Wear",
-    image: "/images/img2.png",
+    image: "/images/img2.jpeg",
+    objectPosition: "50% 10%",
     href: "#",
   },
   {
     id: 3,
     name: "Urban Ethnic",
     description: "Ready To Wear",
-    image: "/images/img3.png",
+    image: "/images/img3.jpeg",
+    objectPosition: "50% 10%",
     href: "#",
   },
   {
     id: 4,
     name: "Golden Dusk",
     description: "Ready To Wear",
-    image: "/images/img4.png",
+    image: "/images/img4.jpeg",
+    objectPosition: "50% 10%",
     href: "#",
   },
 ]
@@ -73,7 +77,8 @@ export function Collections() {
                     src={collection.image}
                     alt={collection.name}
                     fill
-                    className={`object-cover ${index === 0 || index === 1 || index === 2 || index === 3 ? "object-[50%_20%]" : "object-center"} transition-transform duration-700 group-hover:scale-105`}
+                    style={{ objectPosition: collection.objectPosition }}
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-foreground/20 group-hover:bg-foreground/30 transition-colors duration-500" />
                 </div>

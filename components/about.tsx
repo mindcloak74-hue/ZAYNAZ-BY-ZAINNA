@@ -87,7 +87,7 @@ export function About() {
               <div className="space-y-4">
                 <div className="aspect-[3/4] relative overflow-hidden">
                   <Image
-                    src="/images/about-1.jpg"
+                    src="/images/about1.jpeg"
                     alt="Zaynaz craftsmanship"
                     fill
                     className="object-cover"
@@ -95,7 +95,7 @@ export function About() {
                 </div>
                 <div className="aspect-square relative overflow-hidden">
                   <Image
-                    src="/images/about-2.jpg"
+                    src="/images/about2.jpeg"
                     alt="Zaynaz design"
                     fill
                     className="object-cover"
@@ -105,7 +105,7 @@ export function About() {
               <div className="pt-8">
                 <div className="aspect-[3/5] relative overflow-hidden">
                   <Image
-                    src="/images/img21.png"
+                    src="/images/img20.jpeg"
                     alt="Zaynaz collection"
                     fill
                     className="object-cover"

@@ -66,8 +66,8 @@ export function Contact() {
                 <div>
                   <h3 className="font-serif text-lg text-foreground mb-1">Visit Us</h3>
                   <p className="text-muted-foreground">
-                    Gulberg III<br />
-                    Lahore, Pakistan
+                    Lahore, Pakistan<br/>
+                     
                   </p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-serif text-lg text-foreground mb-1">Call Us</h3>
                   <p className="text-muted-foreground">
-                    +92 300 123 4567<br />
+                    +92 331 4379335<br />
               
                   </p>
                 </div>
@@ -92,8 +92,8 @@ export function Contact() {
                 <div>
                   <h3 className="font-serif text-lg text-foreground mb-1">Email Us</h3>
                   <p className="text-muted-foreground">
-                    hello@zaynaz.pk<br />
-                    orders@zaynaz.pk
+                    zsrathore700@gmail.com<br />
+                    
                   </p>
                 </div>
               </div>

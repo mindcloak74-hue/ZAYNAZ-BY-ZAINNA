@@ -131,7 +131,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-background/60 flex-shrink-0 mt-0.5" />
                 <span className="text-background/70">
-                  123 Fashion Street, Gulberg III, Lahore, Pakistan
+                 Lahore, Pakistan
                 </span>
               </li>
               <li>
@@ -140,16 +140,16 @@ export function Footer() {
                   className="flex items-center gap-3 text-background/70 hover:text-background transition-colors"
                 >
                   <Phone className="w-5 h-5 text-background/60" />
-                  +92 300 123 4567
+                  +92 331 4379335
                 </Link>
               </li>
               <li>
                 <Link
-                  href="mailto:hello@zaynaz.pk"
+                  href="mailto:zsrathore700@gmail.com"
                   className="flex items-center gap-3 text-background/70 hover:text-background transition-colors"
                 >
                   <Mail className="w-5 h-5 text-background/60" />
-                  hello@zaynaz.pk
+                  zsrathore700@gmail.com
                 </Link>
               </li>
             </ul>

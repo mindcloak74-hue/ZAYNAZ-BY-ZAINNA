@@ -20,7 +20,7 @@ export function CampaignBanner() {
           >
             <div className="aspect-[4/5] relative overflow-hidden">
               <Image
-                src="/images/img6.png"
+                src="/images/img6.jpeg"
                 alt="Luxury Pret Collection"
                 fill
                 className="object-cover object-[50%_20%]"
