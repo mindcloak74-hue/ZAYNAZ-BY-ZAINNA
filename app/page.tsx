@@ -1,7 +1,6 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Collections } from "@/components/collections"
-import { NewArrivals } from "@/components/new-arrivals"
 import { BestSellers } from "@/components/best-sellers"
 import { CampaignBanner } from "@/components/campaign-banner"
 import { About } from "@/components/about"
@@ -21,7 +20,6 @@ export default function Home() {
       <Header />
       <Hero />
       <Collections />
-      <NewArrivals />
       <CampaignBanner />
       <BestSellers />
       <About />
