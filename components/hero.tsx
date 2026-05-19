@@ -36,7 +36,7 @@ export function Hero() {
           EID WEAR
         </motion.p>
         
-        <motion.h1
+        <motion.h1 id="dastan-collection"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
@@ -62,7 +62,7 @@ export function Hero() {
           className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center"
         >
           <Link
-            href="#new-arrivals"
+            href="#dastan-collection"
             className="group inline-flex items-center justify-center gap-2 md:gap-3 bg-black text-white px-6 md:px-8 py-3 md:py-4 text-xs md:text-sm tracking-widest uppercase hover:bg-accent transition-all duration-300 w-full sm:w-auto"
           >
             Shop Now
